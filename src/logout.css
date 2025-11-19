@@ -1,0 +1,64 @@
+ @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+ body {
+    background-image: url("../AzzaniGeekWeb/img/image_10.png");
+    background-color: rgb(1, 20, 33);
+    color: rgb(224, 224, 219);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 4px 4px 4px rgb(23, 25, 26);
+    margin: 9.5mm;
+ }
+
+ h1 {
+    font-size: 40px;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 5px;
+    font-style: italic;
+ }
+
+ input {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin: 12px;
+    outline: none;
+ }
+
+ .login-btn {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 9px;
+    width: 230px;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    margin-top: 35px;
+    margin-left: 84px;
+ }
+
+ .login-btn:hover {
+    cursor: pointer;
+    background-color: rgb(200, 197, 197);
+ }
+
+ .login_screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    width: 400px;
+    padding: 30px;
+    margin-top: 80px;
+ }
+
+ .data-capture {
+    font-size: 30px;
+ }
+
+ .footer {
+    grid-area: footer;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    padding: center;
+ }

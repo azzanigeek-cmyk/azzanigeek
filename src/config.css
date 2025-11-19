@@ -1,0 +1,70 @@
+ @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+ body {
+    background-image: url("../AzzaniGeekWeb/img/image_10.png");
+    background-color: rgb(1, 20, 33);
+    color: rgb(224, 224, 219);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 4px 4px 4px rgb(23, 25, 26);
+    margin: 9.5mm;
+ }
+
+ h1 {
+    font-size: 40px;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 5px;
+    font-style: italic;
+ }
+
+ input {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin: 12px;
+    outline: none;
+ }
+
+ button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    font-size: 45px;
+    margin: 13px;
+    width: 237px;
+    outline: none;
+ } button:hover {
+    cursor: pointer;
+    background-color: rgb(187, 181, 181);
+ }
+
+.img-perfil {
+    width: 200px;
+    height: 200px;
+    margin-left: -300px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px black;
+}
+
+.info-edit {
+    outline: none;
+    box-shadow: 8px 8px 8px black;
+} .info-edit-ui {
+    text-align: left;
+    margin-left: 281px;
+    margin-top: -245px;
+}
+
+ .bio-edit-input {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    resize: none;
+    width: 500px;
+    height: 150px;
+    outline: none;
+    margin-top: 10px;
+    box-shadow: 8px 8px 8px black;
+}
+
+#birthdate {
+    width: 182px;
+}

@@ -1,0 +1,281 @@
+ body {
+    background-image: url("../AzzaniGeekWeb/img/image_10.png");
+    background-color: rgb(1, 20, 33);
+    color: rgb(224, 224, 219);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 4px 4px 4px rgb(23, 25, 26);
+    margin: 0 auto;
+ }
+
+ header {
+    margin-top: -180px;
+    margin-left: 44px;
+ }
+
+ img {
+    margin-top: -50%;
+    border-radius: 5%;
+    width: 152px;
+    border: 2px 2px 2px solid black;
+ }
+
+ input {
+    border: none;
+    outline: none;
+    height: 35px;
+    margin: 10px;
+    background-color: rgb(1, 8, 14);
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+ }
+
+ .notification {
+    width: 40px;
+    height: 40px;
+    padding-left: 180px;
+    background-image: white;
+    transition: filter ease-in-out 0.2s;
+ }
+
+ .notification:hover {
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 12px white);
+ }
+
+ .notification_btn {
+    background: none;
+    border: none;
+ }
+
+ a {
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(224, 224, 219);
+    margin: 6.5px;
+ }
+
+ a:hover {
+    text-shadow: 3px 3px 3px rgb(88, 88, 88);
+ }
+
+ h1 {
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
+    font-size: 70px;
+ }
+
+
+ p {
+    margin-top: 200px;
+    margin: 2px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .desc {
+    padding: 0px 100px;
+ }
+
+ .sidebar-links {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    margin: -12px;
+ }
+
+ .sidebar-links-position {
+    margin-left: 90px;
+ }
+
+ .img-perfil {
+    padding: 30px;
+ }
+
+ .grid {
+    display: grid;
+    margin: 0 auto;
+ }
+
+ .nav {
+    grid-area: content;
+ }
+
+ .content {
+    grid-area: content;
+    margin-left: 50px;
+ }
+
+ .sidenav {
+    grid-area: sidenav;
+ }
+
+ .advert {
+    grid-area: advert;
+ }
+
+ .footer {
+    grid-area: footer;
+    padding-top: 250px;
+    padding-bottom: 50px;
+    padding: center;
+ }
+
+ .grid-template-areas-4 {
+
+    grid-template-columns: 30% 140% 35%;
+    grid-template-rows: 9.4vh 100vh 10vh;
+    grid-template-areas:
+       "logo nav nav"
+       "sidenav content advert"
+       "footer footer footer"
+    ;
+ }
+
+ .desc-books {
+    margin-left: 200px;
+    margin-right: 150px;
+    margin-top: -80px;
+    text-align: start;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+ }
+
+ .grid-card {
+    display: flex;
+    max-width: 1500px;
+    margin: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+ }
+
+ h2 {
+    margin-left: 200px;
+    text-align: start;
+ }
+
+ .card-books {
+    margin: 15px;
+    min-width: 1000px;
+    max-width: 1000px;
+    min-height: 300px;
+    max-height: 300px;
+    background-color: rgb(1, 8, 14);
+ }
+
+ .img-books {
+    height: 100px;
+    width: 65px;
+    margin: -35px 30px;
+    margin-top: -23px;
+ }
+
+ /* Grid Item */
+ .item {
+    margin: 80px;
+    text-align: center;
+    font-size: 1.5em;
+ }
+
+ .grid {
+    max-width: 1000px;
+ }
+
+ body {
+    font-family: monospace;
+    padding-bottom: 60px;
+ }
+
+ body>div {
+    padding: 40px 0;
+ }
+
+ body>div>img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+ }
+
+ .page {
+    margin-left: -1050px;
+ }
+
+ .btn-options {
+    display: grid;
+    flex-direction: column;
+    font-size: 500px;
+    margin-top: -235px;
+ }
+
+ .rate {
+    width: 70px;
+    height: 60px;
+    color: white;
+ }
+
+ .rate-1,
+ .rate-2,
+ .rate-3,
+ .rate-4,
+ .rate-5 {
+    background: none;
+    outline: none;
+    border: none;
+    margin-top: 40px;
+    font-size: 30px;
+ }
+
+ .option-buttons {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 125px;
+    height: 45px;
+    margin: 10px;
+    outline: none;
+    font-size: 20px;
+    margin-left: 860px;
+ }
+
+ .option-buttons:hover {
+    cursor: pointer;
+    background-color: rgb(187, 181, 181);
+ }
+
+ .rate-1:hover {
+    transition: filter ease-in-out 0.2s;
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 12px white);
+ }
+
+ .rate-2:hover {
+    transition: filter ease-in-out 0.2s;
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 12px white);
+ }
+
+ .rate-3:hover {
+    transition: filter ease-in-out 0.2s;
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 12px white);
+ }
+
+ .rate-4:hover {
+    transition: filter ease-in-out 0.2s;
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 12px white);
+ }
+
+ .rate-5:hover {
+    transition: filter ease-in-out 0.2s;
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 12px white);
+ }

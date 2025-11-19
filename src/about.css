@@ -1,0 +1,135 @@
+body {
+    background-image: url("../AzzaniGeekWeb/img/image_10.png");
+    background-color: rgb(1, 20, 33);
+    color: rgb(224, 224, 219);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-shadow: 4px 4px 4px rgb(23, 25, 26);
+    margin: 0 auto;
+}
+
+header {
+    margin: auto;
+}
+
+.content {
+    grid-area: content;
+
+}
+
+.item-footer {
+    grid-area: footer;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding: center;
+}
+
+.main-content {
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-items: center;
+}
+
+.header-grid {
+    margin: 30px;
+}
+
+a {
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(224, 224, 219);
+    margin: 10px;
+}
+
+a:hover {
+    text-shadow: 3px 3px 3px rgb(88, 88, 88);
+}
+
+h1 {
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-size: 70px;
+}
+
+h2 {
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+
+h3 {
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.img-person {
+    height: 300px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+img {
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    border-radius: 5%;
+    background-image: white;
+    transition: filter ease-in-out 0.2s;
+}
+
+img:hover {
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 12px white);
+    zoom: 102%;
+}
+
+i,
+p {
+    margin-top: 200px;
+    margin: 2px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.sobre {
+    padding: 0px 350px;
+    font-size: 20px;
+}
+
+.desc-person {
+    padding: -10px 30px 50px 30px;
+}
+
+.grid-card {
+    display: flex;
+    max-width: 1500px;
+    margin: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card-person {
+    flex: 1 1 30px;
+    padding: 14px;
+    min-width: 450px;
+    max-width: 450px;
+    min-height: 400px;
+    max-height: 650px;
+    padding: 20px;
+    margin: 50px
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 30px;
+}

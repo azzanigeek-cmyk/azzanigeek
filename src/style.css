@@ -1,0 +1,164 @@
+ body {
+    background-image: url("../AzzaniGeekWeb/img/image_10.png");
+    background-color: rgb(1, 20, 33);
+    color: rgb(224, 224, 219);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 4px 4px 4px rgb(23, 25, 26);
+    margin: 0 auto;
+ }
+
+ header {
+    margin-top: -180px;
+    margin-left: 44px;
+ }
+
+ img {
+	 margin-top: -50%;
+    border-radius: 5%;
+    width: 152px;
+    border: 2px 2px 2px solid black;
+ }
+
+ input {
+    border: none;
+    outline: none;
+    height: 35px;
+    margin: 10px;
+    background-color: rgb(1, 8, 14);
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+ }
+
+ .notification {
+    width: 40px;
+    height: 40px;
+    padding-left: 180px;
+    background-image: white;
+    transition: filter ease-in-out 0.2s;
+ }
+
+  .notification:hover {
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 12px white);
+ }
+
+ .notification_btn {
+    background: none;
+    border: none;
+ }
+
+a {
+   font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(224, 224, 219);
+    margin: 6.5px;
+} a:hover{
+    text-shadow: 3px 3px 3px rgb(88, 88, 88);
+}
+
+h1 {
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
+    font-size: 70px;
+}
+
+
+p {
+    margin-top: 200px;
+    margin: 2px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.desc {
+    padding: 0px 100px;
+}
+
+.sidebar-links {
+   font-size: 22px;
+   display: flex;
+   justify-content: center;
+   margin: -12px;
+} .sidebar-links-position {
+   margin-left: 90px;
+}
+
+.img-perfil {
+   padding: 30px; 
+}
+
+.grid {
+	display: grid;
+   margin: 0 auto;
+}
+
+.nav {
+	grid-area: content;
+}
+
+.content {
+	grid-area: content;
+   margin-left: 50px;   
+}
+
+.sidenav {
+	grid-area: sidenav;
+}
+
+.advert {
+	grid-area: advert;
+}
+
+.footer {
+	grid-area: footer;
+   padding-top: 250px;
+   padding-bottom: 50px;
+   padding: center;
+}
+
+.grid-template-areas-4 {
+    
+   grid-template-columns: 30% 140% 35%;
+	grid-template-rows: 9.4vh 100vh 10vh;
+	grid-template-areas:
+		"logo nav nav"
+		"sidenav content advert"
+		"footer footer footer"
+		;
+}
+
+/* Grid Item */
+.item {
+	margin: 80px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.grid {
+	max-width: 1000px;
+}
+
+body {
+	font-family: monospace;
+	padding-bottom: 60px;
+}
+
+body > div {
+	padding: 40px 0;
+}
+
+body > div > img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.page {
+   margin-left: -1050px;
+}
